@@ -6,3 +6,15 @@ h1 {
     text-align: center;
 }
 
+.item {
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: navy;
+    color: white
+}
+
+.directions {
+    font-family: monospace;
+    font-size: 16px;
+    border: thin;
+}
