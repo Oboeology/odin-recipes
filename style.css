@@ -12,6 +12,10 @@ h2 {
     text-align: center;
 }
 
+div {
+    text-align: center;
+}
+
 a {     
     display: inline-block;     
     position: relative;    
