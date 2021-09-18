@@ -8,6 +8,12 @@ h1 {
     padding: 16px;
 }
 
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
 h2, h3 {
     text-align: center;
 }
