@@ -49,11 +49,11 @@ a {
     border: thin;
 }
 
-#button {
+.button {
     padding: 0px;
 }
 
-#button li a {
+.button li a {
     text-decoration: none;
     color: white;
 }
@@ -79,12 +79,12 @@ a {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-#fast-transition {
+.fast-transition {
     position: relative;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
   
-  #fast-transition::before {
+  .fast-transition::before {
     content: ' ';
     position: absolute;
     top: 0;
@@ -94,9 +94,9 @@ a {
     border-radius: 50px;
     box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
     opacity: 0;
-    transition: opacity 500ms;
+    transition: opacity 1000ms;
   }
   
-  #fast-transition:hover::before {
+  .fast-transition:hover::before {
     opacity: 1;
   }
