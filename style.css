@@ -4,6 +4,8 @@ h1 {
     background-color: deepskyblue;
     color: white;
     text-align: center;
+    margin-top: 0;
+    padding: 16px;
 }
 
 .item {
@@ -17,4 +19,23 @@ h1 {
     font-family: monospace;
     font-size: 16px;
     border: thin;
+}
+
+#button li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: deepskyblue;
+    margin: 15px;
+    width: 100px;
+    line-height: 24px;
+}
+
+#button li a {
+    text-decoration: none;
+    display: block;
+}
+
+#button li a:hover {
+    text-decoration: underline;
 }
