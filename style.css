@@ -16,6 +16,13 @@ h2, h3 {
     margin-right: auto;
     margin-left: auto;
     width: 50%;
+    border: dashed 1px;
+}
+
+.directions-layout {
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
 }
 
 .button-layout {
