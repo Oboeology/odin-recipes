@@ -58,7 +58,7 @@ a {
     color: white;
 }
 
-.button1, .button2, .button3 {
+.buttonrec {
     display: inline-block;
     margin: 10px;
     border: deepskyblue;
